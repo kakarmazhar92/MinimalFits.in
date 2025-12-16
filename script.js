@@ -28,7 +28,7 @@ const products = [
         price: 519,
         originalPrice: 719,
         category: "pants",
-        image: "https://i.ibb.co/nM0H9sSQ/pant02.webp",
+        image: "https://i.ibb.co/sLDYwJq/pants01.png",
         icon: "",
         affiliateLink: "https://www.myntra.com/31420729?skuId=101319981&sellerPartnerId=4036&orderDate=1759656063000&orderId=5631771129&productName=glitchez%20Men%20Mid-Rise%20Relaxed%20Fit%20Chinos&itemId=10735808399&orderStatusName=Delivered&deliveredDate=1759912408000&size=32",
         color: ""
@@ -41,7 +41,7 @@ const products = [
         price: 888,
         originalPrice: 1299,
         category: "footwear",
-        image: "https://i.ibb.co/sLDYwJq/pants01.png",
+        image: "https://i.ibb.co/VcFHwp1K/footwear01.png",
         icon: "",
         affiliateLink: "https://www.myntra.com/casual-shoes/roadster/the-roadster-lifestyle-co-men-lace-ups-round-toe-sneakers/34098506/buy",
         color: ""
@@ -245,6 +245,7 @@ window.addEventListener('load', function () {
         heroBg.style.opacity = '1';
     }
 });
+
 
 
 
