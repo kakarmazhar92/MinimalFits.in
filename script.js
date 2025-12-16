@@ -41,7 +41,7 @@ const products = [
         price: 888,
         originalPrice: 1299,
         category: "footwear",
-        image: "https://i.ibb.co/VcFHwp1K/footwear01.png",
+        image: "https://i.ibb.co/sLDYwJq/pants01.png",
         icon: "",
         affiliateLink: "https://www.myntra.com/casual-shoes/roadster/the-roadster-lifestyle-co-men-lace-ups-round-toe-sneakers/34098506/buy",
         color: ""
@@ -245,5 +245,6 @@ window.addEventListener('load', function () {
         heroBg.style.opacity = '1';
     }
 });
+
 
 
