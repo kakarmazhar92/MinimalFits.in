@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MinimalFits | Men's Fashion, Premium Looking</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./minimalfitsLogo.ico">
+</head>
+<body>
+    <!-- Header <i class="fas fa-vest"> -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1></i>MinimalFits</h1>
+                    <span class="logo-subtitle">Men's Fashion, Premium Looking</span>
+                </div>
+                
+                <nav class="navbar">
+                    <ul class="nav-menu">
+                        <li><a href="#home" class="nav-link active">Home</a></li>
+                        <li><a href="#products" class="nav-link" data-filter="shirts">Shirts</a></li>
+                        <li><a href="#products" class="nav-link" data-filter="pants">Pants</a></li>
+                        <li><a href="#products" class="nav-link" data-filter="footwear">Footwear</a></li>
+                    </ul>
+                    
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Trending Premium Fashion</h2>
+                <p class="hero-subtitle">Premium style. Budget price.</p>
+                <a href="#products" class="btn-hero">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Filter -->
+    <section class="category-filter">
+        <div class="container">
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                <button class="filter-btn" data-filter="shirts">
+                    <i class="fas fa-tshirt"></i> Shirts
+                </button>
+                <button class="filter-btn" data-filter="pants">
+                    <i class="fas fa-vest"></i> Pants
+                </button>
+                <button class="filter-btn" data-filter="footwear">
+                    <i class="fas fa-shoe-prints"></i> Footwear
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2 class="section-title">Featured Products</h2>
+            <p class="section-subtitle">Curated selection of premium men's fashion,In Affordable Price</p>
+            
+            <div class="products-grid">
+                <!-- Products will be loaded here via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3></i>MinimalFits</h3>
+                    <p>Men's Fashion, Premium Looking</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#products" data-filter="shirts">Shirts</a></li>
+                        <li><a href="#products" data-filter="pants">Pants</a></li>
+                        <li><a href="#products" data-filter="footwear">Footwear</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-disclaimer">
+                    <h4>Affiliate Disclosure</h4>
+                    <p>MinimalFits is an affiliate marketing website. We earn a small commission when you purchase products through our links, at no extra cost to you. This helps us maintain our service and continue providing great fashion recommendations.</p>
+                    <p class="privacy">Privacy Policy: We do not store any personal information. All transactions occur on external sites like Amazon and Flipkart.</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 MinimalFits. All rights reserved. | Men's Fashion, Premium Looking</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
