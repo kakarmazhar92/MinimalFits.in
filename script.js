@@ -11,13 +11,13 @@ const products = [
     // Shirts
     {
         id: 1,
-        name: "THE BEAR HOUSE | Men Slim Fit Checkered Button Down Collar Casual Shirtt",
-        price: 773,
-        originalPrice: 2495,
+        name: "Campus Sutra | Men Comfort Fit Textured Button-Down Collar Cotton Casual Shirt",
+        price: 419,
+        originalPrice: 749,
         category: "shirts",
-        image: "https://i.ibb.co/jvYxNtgG/shirt01.webp",
+        image: "https://i.ibb.co/tPctQxSL/shirt01.webp",
         icon: "",
-        affiliateLink: "https://www.flipkart.com/bear-house-men-checkered-casual-green-white-beige-shirt/p/itm8a83de1fcd244?pid=SHTGR8286C5RDGHH&lid=LSTSHTGR8286C5RDGHHTKFRLF&marketplace=FLIPKART&q=snitch+shirts&store=clo%2Fash%2Faxc%2Fmmk&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=en_YKgv_TTuSXD_Ww5hBeGOgZNEcJ9oQxqhyjDiS-nvKN0LK0zMDb6_m4I8xcwetlav_LcKxhrGo8E-YfJYmZL1lfUFjCTyOHoHZs-Z5_PS_w0%3D&ppt=sp&ppn=sp&ssid=n7hxz70iog0000001765851899623&qH=c2d18b5d7eae2778",
+        affiliateLink: "https://www.myntra.com/36177409?skuId=115596731&sellerPartnerId=4214&orderDate=1762917479000&orderId=5670726335&productName=Campus%20Sutra%20Men%20Comfort%20Fit%20Textured%20Button-Down%20Collar%20Cotton%20Casual%20Shirt&itemId=10798951478&orderStatusName=Delivered&deliveredDate=1763450107000&size=40",
         color: ""
     },
     {
@@ -344,3 +344,4 @@ window.addEventListener('load', function () {
         heroBg.style.opacity = '1';
     }
 });
+
