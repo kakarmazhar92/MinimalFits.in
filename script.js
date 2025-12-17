@@ -17,7 +17,7 @@ const products = [
         category: "shirts",
         image: "https://i.ibb.co/tPctQxSL/shirt01.webp",
         icon: "",
-        affiliateLink: "https://www.myntra.com/36177409?skuId=115596731&sellerPartnerId=4214&orderDate=1762917479000&orderId=5670726335&productName=Campus%20Sutra%20Men%20Comfort%20Fit%20Textured%20Button-Down%20Collar%20Cotton%20Casual%20Shirt&itemId=10798951478&orderStatusName=Delivered&deliveredDate=1763450107000&size=40",
+        affiliateLink: "https://myntr.it/swBfMoB",
         color: ""
     },
 
@@ -30,7 +30,7 @@ const products = [
         category: "pants",
         image: "https://i.ibb.co/sLDYwJq/pants01.png",
         icon: "",
-        affiliateLink: "https://www.myntra.com/31420729?skuId=101319981&sellerPartnerId=4036&orderDate=1759656063000&orderId=5631771129&productName=glitchez%20Men%20Mid-Rise%20Relaxed%20Fit%20Chinos&itemId=10735808399&orderStatusName=Delivered&deliveredDate=1759912408000&size=32",
+        affiliateLink: "https://myntr.it/2gyI9pp",
         color: ""
     },
     
@@ -43,7 +43,7 @@ const products = [
         category: "footwear",
         image: "https://i.ibb.co/VcFHwp1K/footwear01.png",
         icon: "",
-        affiliateLink: "https://www.myntra.com/casual-shoes/roadster/the-roadster-lifestyle-co-men-lace-ups-round-toe-sneakers/34098506/buy",
+        affiliateLink: "https://myntr.it/Bads7I4",
         color: ""
     }
    ];
@@ -245,6 +245,7 @@ window.addEventListener('load', function () {
         heroBg.style.opacity = '1';
     }
 });
+
 
 
 
